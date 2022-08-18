@@ -15,4 +15,5 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+      - run: git clone -b v1.0 --recursive https://github.com/CyberDem0n/pam-oauth2.git
 
